@@ -1,3 +1,4 @@
+
 .carousel-links {
     display: flex;
     justify-content: center;
@@ -31,17 +32,17 @@
     flex-direction: column;
     flex-wrap: wrap;
   }
-  
+
 .progress-label {
     position: relative;
   }
   
-  .progress-label::after {
+.progress-label::after {
     content: "75%";
     position: absolute;
     top:0;
     right: 0;
-  }
+}
   
   progress
   {
