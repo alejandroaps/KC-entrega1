@@ -1,3 +1,17 @@
+.main-content
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.content-image 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
 .navbar .navbar-content .menu
 {
     display: none;
