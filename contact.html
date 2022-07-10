@@ -17,6 +17,53 @@
         </div>
     </nav>
 
+    <main class="main-content">
+        <form action="/register"  method="POST">
+            <div>
+              <label for="name">Nombre: </label>
+              <input type="text" id="name" name="name" required>      
+            </div>
+        
+            <div>
+                <label for="name">Apellidos: </label>
+                <input type="text" id="surname" name="surname" required>      
+            </div>
+        
+            <div>
+                <label for="phone">Teléfono: </label>
+                <input type="tel" id="phone" name="phone" required>        
+            </div>
+
+
+            <p>¿Como me conociste?: </p>
+            <div>
+                <input type="radio" id="contactChoice1" name="contact" value="Universidad" required>
+                <label for="contactChoice1">Universidad</label>
+
+                <input type="radio" id="contactChoice2" name="contact" value="Kepcoding" required>
+                <label for="contactChoice2">Keepcoding kick-off</label>
+            
+                <input type="radio" id="contactChoice3" name="contact" value="colegio" required>
+                <label for="contactChoice3">Colegio</label>
+
+                <input type="radio" id="contactChoice4" name="contact" value="Github" required>
+                <label for="contactChoice4">En Github</label>
+            </div>
+            
+            <div>
+                <label for="githubTag">Teléfono: </label>
+                <input type="text" id="githubTag" name="githubTag" pattern="^@[^\s]+" required>        
+            </div>
+
+            <label for="descp">Descripción: </label>
+            <textarea id="descp" name="descp"  maxlength="50">
+            </textarea> 
+            
+            <input type="submit" id="submit" value="Guardado">
+        </form>
+
+    </main>
+
 
     <footer class="footer">
         <div class="footer-content">
